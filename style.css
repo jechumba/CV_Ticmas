@@ -1,0 +1,262 @@
+/* Barra de navegacion */
+
+.navbar {
+    padding: 2rem;
+    background-color:rgb(51, 44, 36);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+        font-family: 'Rubik', sans-serif;
+}
+
+
+
+.seccion-oscura {
+    color: white;
+    background-color:rgb(51, 44, 36);
+}
+
+.seccion-clara {
+    color:black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color:rgb(85, 85, 85)
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.texto-negro {
+    color:black;
+}
+
+.texto-blanco {
+    color:white;
+}
+
+/* Seccion Hero*/
+.hero {
+    background-color:rgb(230, 241, 252);
+    min-height: 450px;
+    text-align: center;
+}
+
+/* Sobre mi*/
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Experiencia */
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #134a8a4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: rgb(0, 209, 112);
+    background-color: rgb(9, 25, 255);
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0; 
+}
+
+
+/* Proyectos */
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyecto img{
+    width: 80%;
+}
+
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.overlay p {
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 0;
+
+}
+
+.proyecto {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.proyecto:hover img {
+    opacity: 0.7;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.proyecto .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+/* Contacto */
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo  {
+    margin-top: -1rem;
+    background-color: rgb(24, 24, 42);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+/* Pie de pagina (Footer) */
+.footer-texto {
+    font-size: 1.2rem;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.derechos-de-autor {
+    font-size: 17px;
+    color: rgb(228, 236, 236);
+    padding: 20px;
+}
+
+
+
+
+/* Responsivo */
+
+@media screen and (max-width: 400px) {
+    .overlay p {font-size: 18px;}
+}
+
+.overlay i {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+

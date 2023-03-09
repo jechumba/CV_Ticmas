@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Scott Adams">
+    <meta name="description" content="Portafolio de desarrollo web de Scott Adams" >
+    <meta name="keywords" content="HTML, CSS, JavaScript" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Titulo -->
+    <title>Javier | Web Developer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/01.jpg" >
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Iconos de Bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+        <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans&family=Noto+Sans+Syloti+Nagri&family=Oswald:wght@500&family=Rubik+Dirt&family=Rubik:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+<!-- Barra de navegacion -->
+<nav class="navbar navbar-expand-md navbar-light navbar-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo.jpg" width="50" alt="Logo de la página web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#porfolio">Porfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+<!-- Seccion hero -->
+<section class="hero align-items-stretch">
+    <div>
+        <img src="imagenes/02.jpg" alt="Foto de perfil" width="200">
+        <h1>Javier</h1>
+        <h2>Web Developer</h2>
+    </div>
+    
+</section>
+
+
+
+<!-- Mi informacion-->
+<section id="sobre-mi" class="sobre-mi seccion-oscura">
+<div class="contenedor">
+    <h2 class="seccion-titulo">Quien soy</h2>
+    <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida ex leo, nec ullamcorper sem tempus non.
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam sit amet dui est. Sed sed ipsum eu tellus dapibus
+    accumsan id a dolor. </p>
+</div>
+</section>
+
+
+<!-- Proyectos -->
+<section id="porfolio" class="proyectos-recientes seccion-clara d-flex flex-column"> 
+    <h2 class="seccion-titulo texto-negro">Proyectos</h2>
+</section>
+
+<!-- Galeria de proyectos -->
+<div class="container text-center proyectos-contenedor">
+    <div class="row">
+        <!-- Proyectos-->
+        <div class="col-12 col-md-6 col-lg-4">
+            </div>
+            <div class="proyecto">
+                <img src="imagenes/proyectos1.jpg" alt="Ver Proyectos">
+                <div class="overlay">
+                  <p> Ver Proyectos</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+
+                    </a>
+                  </div>
+                </div>
+            </div>
+
+        </div>  
+
+
+        <div class="col-12 col-md-6 col-lg-4">
+        </div>
+        <div class="proyecto">
+            <img src="imagenes/proyectos2.jpg" alt="Ver Proyectos" >
+            <div class="overlay">
+              <p> Ver Proyectos</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+
+                </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+        </div>
+        <div class="proyecto">
+            <img src="imagenes/proyectos3.jpg" alt="Ver Proyectos" >
+            <div class="overlay">
+              <p> Ver Proyectos</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+
+                </a>
+              </div>
+            </div>
+        </div>
+
+    </div> 
+
+    </div>   
+</div>
+
+<section id="porfolio" class="proyectos-recientes seccion-clara d-flex flex-column"> 
+    <h2 class="seccion-titulo texto-negro">Habilidades</h2>
+</section>
+
+
+<!-- Experiencia -->
+<section id="experiencia" class="experiencia seccion-clara">
+    <div class="container text-center">
+        <div class="row">
+            
+            <!--Programacion-->
+            <div class="columna col-12 col-md-4">
+            <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-braces"></i>
+            </a>
+            <p class="experiencia-titulo">Programación</P>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id consequuntur obcaecati voluptates necessitatibus quam illum molestias labore nobis ex perferendis.
+            
+            </p>
+            </div>
+    
+    <!--Android-->
+    <div class="columna col-12 col-md-4">
+        <a href="https://www.android.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-android2"></i>
+        </a>
+        <p class="experiencia-titulo">Android</P>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id consequuntur obcaecati voluptates necessitatibus quam illum molestias labore nobis ex perferendis.
+                
+            </p>
+        </div>
+        
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+            <a href="https://www.ticmas.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-laptop"></i>
+            </a>
+            <p class="experiencia-titulo">Desarrollo Web</P>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id consequuntur obcaecati voluptates necessitatibus quam illum molestias labore nobis ex perferendis.
+        
+            </p>
+        </div>
+
+
+</div>
+</div>
+</section>
+
+
+
+<!-- Contacto -->
+<section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+            
+                <div class="col-12 col-md-4 descripcion">
+                    Contrata mis servicios de desarrollo web
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="mailto:javier.2022@example.com">
+                        <button type="button">
+                            Contacto
+                            <i class="bi bi-envelope-at-fill"></i>
+
+                        </button>
+
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pie de pagina (Footer)-->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+
+  <p class="footer-texto text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, non consequuntur.<br>Consectetur adipisicing elit. Facilis eaque, dicta doloribus cumque, optio tempora eum saepe reiciendis rerum nihil sequi molestiae fugit. </p>
+
+  <div class="derechos-de-autor">Creado por Javier (2023) &#169;</div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html> 
+
